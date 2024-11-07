@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Product product = new Product("Sten", 5000);
+        System.out.println(product.showProducts());
+
     }
 }
