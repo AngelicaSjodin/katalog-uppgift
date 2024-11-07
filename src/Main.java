@@ -22,6 +22,7 @@ public class Catalog {
 
     //Testar Catalog klass
     public static void main(String[] args) {
+ Adrian
         Catalog catalog = new Catalog();
 
         //Skapar och lägger till två produkter
@@ -33,6 +34,12 @@ public class Catalog {
 
         //Visa alla produkter
         catalog.showAllProducts();
+
+
+        Product product = new Product("Sten", 5000);
+        System.out.println(product.showProducts());
+
+ main
     }
 
 }
